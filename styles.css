@@ -2,13 +2,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('./assets/leaves-6975462.png');
 }
 article {
     width: 75%;
+    background-color: tan;
 }
 
 header,
 footer {
     width: 100%;
     background-color: cadetblue;
+}
+body {
+    background-color: blanchedalmond;
 }
