@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article {
+    width: 75%;
+}
+
+header,
+footer {
+    width: 100%;
+    background-color: cadetblue;
+}
