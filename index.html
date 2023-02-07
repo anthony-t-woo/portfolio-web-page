@@ -6,7 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
         <title>Anthony Woo - Portfolio Web Page</title>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="styles.css" />
     </head>
 
@@ -16,7 +21,14 @@
         </header>
         <main>
             <article>
-                <h2>About Me</h2>
+                <img
+                    class="profile-pic"
+                    src=".//assets/picture.jpeg"
+                    alt="pic of anthony"
+                />
+
+                <h2><em>About Me</em></h2>
+
                 <p>
                     Full stack software engineer with a background in
                     geotechnical engineering. With over 5 years of experience as
@@ -28,27 +40,43 @@
                     cars and bikes. I take pride in becoming proficient in
                     skills that allow me to create a quality product.
                 </p>
+                <h3>My Favorite Outdoor Activities</h3>
+                <ol>
+                    <li>Mountain Biking</li>
+                    <li>Rock Climbing</li>
+                    <li>Hiking</li>
+                    <li>Camping</li>
+                </ol>
                 <hr />
-                <h2>Contact</h2>
-                <ul>
-                    <h3>Reach Out to Me!</h3>
-                    <li>E-Mail: anthony.woo14@gmail.com</li>
-                    <li>
-                        LinkedIn:
-                        <a href="https://www.linkedin.com/in/anthonywoo14/"
-                            >Anthony Woo
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <h3>See My Work</h3>
-                    <li>
-                        GitHub:
-                        <a href="https://github.com/anthony-t-woo"
-                            >@anthony-t-woo</a
-                        >
-                    </li>
-                </ul>
+                <h2><em>Contact</em></h2>
+                <section class="contact-container">
+                    <div>
+                        <h3>Reach Out to Me!</h3>
+                        <ul>
+                            <li>E-Mail: anthony.woo14@gmail.com</li>
+                            <li>
+                                LinkedIn:
+                                <a
+                                    href="https://www.linkedin.com/in/anthonywoo14/"
+                                    >Anthony Woo
+                                </a>
+                            </li>
+                        </ul>
+                        <h3>See My Work</h3>
+                        <ul>
+                            <li>
+                                GitHub:
+                                <a href="https://github.com/anthony-t-woo"
+                                    >@anthony-t-woo</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>I Live in Salt Lake City, Utah</h3>
+                        <img src="./assets/saltLake.jpg" alt="salt lake city" />
+                    </div>
+                </section>
             </article>
         </main>
         <footer>

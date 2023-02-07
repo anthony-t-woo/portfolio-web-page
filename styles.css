@@ -7,6 +7,7 @@ main {
 article {
     width: 75%;
     background-color: tan;
+    padding: 20px;
 }
 
 header,
@@ -16,4 +17,24 @@ footer {
 }
 body {
     background-color: blanchedalmond;
+    font-family: 'Raleway', sans-serif;
+}
+
+main img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contact-container,
+.heading-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: cadetblue;
+}
+body h2,
+footer {
+    text-align: center;
 }
