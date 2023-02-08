@@ -15,6 +15,8 @@ footer {
     width: 100%;
     background-color: cadetblue;
 }
+
+/* give body of the page background color and apply global font family to body and its decendants  */
 body {
     background-color: blanchedalmond;
     font-family: 'Raleway', sans-serif;
@@ -24,16 +26,19 @@ main img {
     height: 200px;
     border-radius: 10px;
 }
-
+/* apply flex display settings to contact-container and heading */
 .contact-container,
 .heading-div {
     display: flex;
     justify-content: space-between;
 }
 
+/* applied styling to pseudo class of anchor elements */
 a:hover {
     color: cadetblue;
 }
+
+/* center text in the element box */
 body h2,
 footer {
     text-align: center;
